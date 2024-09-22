@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -14,6 +16,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/* hero section */
 
 .hero {
     background-color: #1F2937;
@@ -56,7 +60,7 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    line-height: 40px;
+    /* line-height: 40px; */
 }
 
 .image-placeholder {
@@ -88,4 +92,42 @@ button {
 .hero-btn:active {
     background-color: #3882F6;
 }
+
+.cards-section {
+    padding: 60px 0 80px;
+}
+
+/* main section */
+
+h2 {
+    text-align: center; 
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 60px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    gap: 8px;
+    /* border: 2px solid red; */
+}
+.card-pic {
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    
+}
+
 
